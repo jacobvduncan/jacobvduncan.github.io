@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Duncan</title>
+    <link rel="stylesheet" href="/styles/styles-mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="/styles/styles-desktop.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="/README.txt">
+</head>
+<body class="middle-body" onload="init()">
+
+
+    <header class="header-mobile">
+        <div class="top-mobile">
+     
+                <h2 class="header-text">JACOB DUNCAN</h2>
+                <button class="menu-trigger" onclick="toggleMenu()"></button>
+        </div>
+
+    </header>
+
+
+
+    
+
+    <div class="left-panel">
+        <div style="border-bottom: 1px solid white; padding-bottom: 50px;">
+            <button class="cancel-button" onclick="toggleMenu()"></button>
+            
+            <a href="/" class="header-1">
+                <h1>
+                    JACOB <br>
+                    DUNCAN
+                </h1>
+            </a>
+            
+            <div class="nav">
+                <a href="/pages/about.html" class="nav-href">ABOUT</a>
+                <br>
+                <a href="/pages/games.html" class="nav-href">GAMES</a>
+                <br>
+                <a href="/pages/models.html" class="nav-href">MODELS</a>
+                <br>
+                <a href="/pages/projects.html" class="always-underlined">PROJECTS</a>
+                <br>
+                <a href="/pages/skills.html" class="nav-href">SKILLS</a>
+                <br>
+                <a href="/pages/build.html" class="nav-href">BUILD</a>
+            </div>
+        </div>
+
+        <div class="social">
+            <a href="https://leetcode.com/jacobvictorduncan" aria-label="leetcode" target="_blank">
+                <img src="/icons/leetcode.png" alt="leetcode">
+            </a>
+            <a href="https://open.spotify.com/user/tddemuf45lmbmhny3ch817vt3?si=ab9c342c3bfa43b8" aria-label="spotify" target="_blank">
+                <img src="/icons/spotify.png" alt="spotify">
+            </a>
+            <a href="https://twitter.com/jacobvduncan" aria-label="twitter" target="_blank">
+                <img src="/icons/twitter.png" alt="twitter">
+            </a>
+            <a href="https://www.youtube.com/@jacobvduncan/videos" aria-label="youtube" target="_blank">
+                <img src="/icons/youtube.png" alt="youtube">
+            </a>
+        </div>
+
+        </div>
+    </div>
+
+
+    <div class="content-panel-singular" id="content-panel">
+
+        <h1>Floating Coffin - A First Person Survival Game</h1>
+    
+        <p>Floating Coffin is the only game I've released using Unity. I actually made this game solely on my MacBook during the first year of university as I did not bring my computer to school that year. For some reason, I really wanted to make a game from scratch on my Mac and on an Apple product, and I did that. Every asset in this game was modeled and textured by myself. It is a first-person survival game inspired by other sandbox survival games like Subnautica. It contains a full pressure system, multiple stats like oxygen, heat, water, etc. Full space movement and ship movement. The idea for this game was inspired by a clip of Interstellar, and I wanted to recreate that feeling. I'm actually quite impressed with how this project turned out, as I managed to recreate that exact feeling for myself. The actual game design is somewhat lacking as it's quite boring; however, the mechanics were excellently implemented. It contains a full crafting and inventory system similar to other games.</p>
+    
+        <p>The most difficult part of this project was actually having a character walk with normal gravity on a rotating floating rigidbody. I managed to do this by basically simulating the walking on another fake spaceship and then just replicate the transform of the player to the outside ship. It also contains a full building system and while on a rotating ship, which was harder than it sounds as this is a rigidbody I'm building on. I learned a lot from this project and it engraved the relation between child and parent transforms and also made me understand how important update vs late update is in Unity.</p>
+    
+        <h2>Key Features and Learning Outcomes:</h2>
+    
+        <ul>
+            <li>Full building system and interacting with deployables and picking them back up.</li>
+            <li>Full space movement along every axis possible, including rotational torque.</li>
+            <li>Complicated statistical systems including basics like food health etc., and also pressure, oxygen, temperature based on leaks.</li>
+            <li>Full farming system including progressive plant growth until harvestable, fertilization, and watering required for full growth.</li>
+            <li>Text to morse code audio device, fully realistic and accurate.</li>
+            <li>Black hole gravity and visuals, making a player walk on a floating rotating rigidbody by keeping track of two scenes, an inner scene and outer scene.</li>
+            <li>Full game loop settings menu and standard UI.</li>
+        </ul>
+    
+        <p>I actually had much bigger plans for this project; however, it was taking too long as a solo developer, so I just pretty much finished what I had and dropped it as I was going into my second year of school and wanted to start something fresh then. I still really like the idea and it seems like a good single-player game if I had more ideas with what to do with gameplay; however, unfortunately, I probably won't go back to it.</p>
+    
+        <div class="content-panel-projects-no-overflow" id="content-panel">
+            <!-- Placeholder images -->
+        
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDOlypiWcAEeOio?format=jpg&name=4096x4096" alt="Project 3"></div>
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDOl-h4XgAAXHf4?format=jpg&name=4096x4096" alt="Project 1"></div>
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDOl-hlWwAA5fFT?format=jpg&name=large" alt="Project 2"></div>
+
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDOl-iYX0AAsq_0?format=jpg&name=4096x4096" alt="Project 3"></div>
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDOlyqIXUAAFVrt?format=jpg&name=4096x4096" alt="Project 1"></div>
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDOlypwWQAATnQH?format=jpg&name=4096x4096" alt="Project 2"></div>
+
+            <div class="project-image"><img src="https://pbs.twimg.com/media/GDHo7sAW8AAFEFt?format=jpg&name=4096x4096" alt="Project 2"></div>
+           
+    
+
+        </div>
+    </div>
+
+
+    
+
+<script src="/client.js"></script>
+</body>
+</html>
+
+
+
