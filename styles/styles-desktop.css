@@ -200,12 +200,28 @@ body {
         font-size: xx-large;
         text-align: center;
     }
+    .placeholder-text-no-phone{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        opacity: 0; /* Initially invisible */
+        transition: opacity 0.3s ease-in-out;
+        font-size: xx-large;
+        text-align: center;
+    }
     
     .game-showcase:hover .placeholder-text {
         opacity: 1; /* Make the text visible on hover */
     }
 
     .project-image:hover .placeholder-text {
+        opacity: 1; /* Make the text visible on hover */
+    }
+
+    .project-image:hover .placeholder-text-no-phone {
         opacity: 1; /* Make the text visible on hover */
     }
 

@@ -4,6 +4,12 @@
 
 }
 
+.middle-body-main {
+    margin: 0;
+    overflow: hidden;
+
+}
+
 .middle-body-fixed{
     margin: 0;
     min-height: 100vh;
