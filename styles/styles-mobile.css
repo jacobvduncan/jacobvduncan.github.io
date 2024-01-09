@@ -33,8 +33,8 @@
     transition: left 0.3s ease; /* Add a transition to smoothly animate left property */
     padding-top: 10px;
     box-sizing: border-box;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
 }
 
 .left-panel.hide {
@@ -64,7 +64,7 @@
     padding: 20px;
     box-sizing: border-box;
     height: 100vh;
-    background-image: url(/images/second.jpg);
+    background-image: url(/images/first.jpg);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0);
     background-blend-mode: multiply;

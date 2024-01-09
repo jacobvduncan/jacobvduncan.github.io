@@ -46,7 +46,7 @@
     padding: 20px;
     box-sizing: border-box;
     height: 100vh;
-    background-image: url(/images/second.jpg);
+    background-image: url(/images/first.jpg);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0);
     background-blend-mode: multiply;
