@@ -247,7 +247,7 @@ body {
     
     /* Add specific classes for each skill, adjust the height based on your proficiency */
     .csharp { height: 40vh; }
-    .cpp { height: 25vh; }
+    .cpp { height: 34vh; }
     .html { height: 43vh; }
     .java { height: 35vh; }
     .python { height: 39vh; }
@@ -261,9 +261,7 @@ body {
  
     
     /* Add hover effect for more interactivity */
-    .skill-bar:hover {
-        background-color: #2980b9;
-    }
+
     .skill-container {
         display: flex;
         flex-direction: column;
