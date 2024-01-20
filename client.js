@@ -25,6 +25,11 @@ function toggleMenu() {
     main.classList.toggle('overflow');
     }
 
+    
+    var singlepage = document.querySelector('.content-panel-singular');
+    if(singlepage != null){
+    singlepage.classList.toggle('hidden');
+    }
 
 
 

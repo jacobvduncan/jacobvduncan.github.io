@@ -400,6 +400,18 @@ body {
 
 }
 
+.content-panel-singular.hidden{
+
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    display: none;
+    overflow: hidden;
+
+
+
+}
+
 .content-panel-projects-no-overflow{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50vw, 1fr));
