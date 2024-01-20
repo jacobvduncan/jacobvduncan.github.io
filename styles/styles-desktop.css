@@ -95,7 +95,7 @@ body {
 }
 
 .social a {
-    margin-right: 10px; /* Adjust spacing between icons */
+    padding: 5px; /* Adjust spacing between icons */
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
