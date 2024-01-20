@@ -6,6 +6,29 @@ function init()
 
 // client.js
 function toggleMenu() {
+
+    
+    var main = document.querySelector('.middle-body-main');
+    if(main != null){
+    main.classList.toggle('overflow');
+    }
+    var main = document.querySelector('.middle-body');
+    if(main != null){
+    main.classList.toggle('overflow');
+    }
+    var main = document.querySelector('.middle-body-fixed');
+    if(main != null){
+    main.classList.toggle('overflow');
+    }
+    var main = document.querySelector('.middle-body-not-hidden');
+    if(main != null){
+    main.classList.toggle('overflow');
+    }
+
+
+
+
+
     var leftPanel = document.querySelector('.left-panel');
     leftPanel.classList.toggle('hide');
 
