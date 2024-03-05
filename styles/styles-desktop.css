@@ -2,7 +2,11 @@
     margin: 0;
     min-height: 100vh;
 }
-
+body
+{
+    font-family: 'cursive';
+    line-height: 2;
+}
 .middle-body-fixed{
     margin: 0;
     min-height: 100vh;
@@ -22,6 +26,11 @@
     max-width: 300px;
 
 }
+@font-face {
+    font-family: 'cursive';
+    src: url('/styles/custom-font.otf') 
+    /* Add additional font formats here if needed */
+  }
 
 .nav {
     color: white;

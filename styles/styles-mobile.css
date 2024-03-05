@@ -1,3 +1,22 @@
+
+
+
+body
+{
+    font-family: 'cursive';
+    line-height: 1;
+}
+@font-face {
+    font-family: 'cursive';
+    src: url('/styles/custom-font.otf') 
+    /* Add additional font formats here if needed */
+  }
+
+
+
+
+
+
 .middle-body {
     margin: 0;
     min-height: 100vh;
@@ -24,7 +43,14 @@
 
 }
 
-
+@font-face {
+    font-family: 'YourFontName';
+    src: url('/styles/custom-font.otf') 
+    /* Add additional font formats here if needed */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
 
 
 
