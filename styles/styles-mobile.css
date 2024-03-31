@@ -8,7 +8,7 @@ body
 }
 @font-face {
     font-family: 'cursive';
-    src: url('/styles/custom-font.otf') 
+    src: url('/styles/fonts/font-two.ttf') 
     /* Add additional font formats here if needed */
   }
 
@@ -43,11 +43,7 @@ body
 
 }
 
-@font-face {
-    font-family: 'YourFontName';
-    src: url('/styles/custom-font.otf') 
-    /* Add additional font formats here if needed */
-  }
+
   h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
   }

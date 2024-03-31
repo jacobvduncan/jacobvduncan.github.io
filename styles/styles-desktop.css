@@ -6,6 +6,7 @@ body
 {
     font-family: 'cursive';
     line-height: 2;
+    font-size: 16px
 }
 .middle-body-fixed{
     margin: 0;
@@ -28,7 +29,7 @@ body
 }
 @font-face {
     font-family: 'cursive';
-    src: url('/styles/custom-font.otf') 
+    src: url('/styles/fonts/font-two.ttf') 
     /* Add additional font formats here if needed */
   }
 
