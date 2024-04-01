@@ -257,7 +257,7 @@ body {
     
     /* Add specific classes for each skill, adjust the height based on your proficiency */
     .csharp { height: 40vh; }
-    .cpp { height: 34vh; }
+    .cpp { height: 42vh; }
     .html { height: 43vh; }
     .java { height: 35vh; }
     .python { height: 39vh; }
@@ -265,7 +265,7 @@ body {
     .blender { height: 25vh; }
     .gimp { height: 45vh; }
     .godot { height: 30vh; }
-    .sp { height: 20vh; }
+    .sp { height: 23vh; }
     .unreal { height: 40vh; }
     .unity { height: 35vh; }
  
