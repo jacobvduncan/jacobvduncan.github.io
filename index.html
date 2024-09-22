@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Duncan</title>
+    <link rel="stylesheet" href="/styles/styles-mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="/styles/styles-desktop.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="/README.txt">
+    <script>
+        document.fonts.ready.then(function () {
+            document.body.style.visibility = 'visible'; 
+        }).catch(function () {
+        });
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(registration => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                }).catch(error => {
+                    console.error('Service Worker registration failed:', error);
+                });
+            });
+        }
+        window.addEventListener('hashchange', function() {
+            handleHashChange();
+        });
+    </script>
+</head>
+<body class="middle-body-main" onload="init()">
+
+
+    <header class="header-mobile">
+        <div class="top-mobile">
+
+                <h2 class="header-text">JACOB DUNCAN</h2>
+                <button class="menu-trigger" onclick="toggleMenu()"></button>
+        </div>
+
+    </header>
+
+
+
+    
+
+    <div class="left-panel">
+        <div style="border-bottom: 1px solid white; padding-bottom: 50px;">
+            <button class="cancel-button" onclick="toggleMenu()"></button>
+            
+            <a class="header-1" onclick="loadHTMLFileAndReplace('/pages/hero.html', 'master-panel')">
+                <h1>
+                    JACOB <br>
+                    DUNCAN
+                </h1>
+            </a>
+            
+            <div class="nav">
+                <a class="nav-href" onclick="updateURLWithHash('about')" id="nav-href-one">ABOUT</a>
+                <br>
+                <a class="nav-href" onclick="updateURLWithHash('games')" id="nav-href-two">GAMES</a>
+                <br>
+                <a class="nav-href" onclick="updateURLWithHash('projects')" id="nav-href-three">PROJECTS</a>               
+                <br>
+                <a class="nav-href" onclick="updateURLWithHash('skills')" id="nav-href-four">SKILLS</a>
+                <br>
+                <a class="nav-href" onclick="updateURLWithHash('build')" id="nav-href-five">BUILD</a>
+            </div>
+        </div>
+
+        <div class="social">
+            <a aria-label="leetcode" target="_blank" onclick="openNewTab('https://leetcode.com/jacobvictorduncan')">
+                <img src="/icons/leetcode.png" alt="leetcode">
+            </a>
+            <a aria-label="spotify" target="_blank" onclick="openNewTab('https://open.spotify.com/user/tddemuf45lmbmhny3ch817vt3?si=ab9c342c3bfa43b8')">
+                <img src="/icons/spotify.png" alt="spotify">
+            </a>
+            <a aria-label="twitter" target="_blank" onclick="openNewTab('https://twitter.com/jacobvduncan')">
+                <img src="/icons/twitter.png" alt="twitter">
+            </a>
+            <a aria-label="youtube" target="_blank" onclick="openNewTab('https://www.youtube.com/@jacobvduncan/videos')">
+                <img src="/icons/youtube.png" alt="youtube">
+            </a>
+        </div>
+
+        </div>
+    </div>
+
+    <div class = "master-panel" id="master-panel" >
+
+    </div>
+
+
+    </div>
+    <style>
+
+
+
+    </style>
+<script src="client.js"></script>
+</body>
+</html>
+
