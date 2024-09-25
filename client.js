@@ -87,6 +87,7 @@ function loadHTMLFileAndReplace(filePath, targetElementId, underlineId, hash) {
     else {
         window.history.replaceState(null, null, window.location.origin);
     }
+    window.scrollTo(0, 0);
 
 
 
@@ -137,6 +138,7 @@ function setElementClassById(elementId, className) {
 function updateURLWithHash(name) {
     closeMenu()
     window.location.hash = name;
+    document.getElementById('master-panel').scrollTo(0, 0)
 }
 
 
@@ -149,6 +151,7 @@ function handleHashChange() {
         return
     }
     toggleBodyOverflow(false)
+    
     window.scrollTo(0, 0);
     if(currentHash  === "#about")
     {

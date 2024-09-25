@@ -6,9 +6,12 @@ body
     font-family: 'cursive';
     line-height: 1;
     visibility: hidden; 
+    overflow: hidden;
+    font-size: 20px;
 }
 .no-overflow {
     overflow: hidden;
+    font-size: 20px;
 }
 
 @font-face {
@@ -23,6 +26,7 @@ body
 .middle-body {
     margin: 0;
     min-height: 100vh;
+
 
 }
 
@@ -57,6 +61,8 @@ body
     margin: 0;
     overflow: auto;
     user-select: none;
+    height: 100vh;
+    font-size: 20px;
 }
 
 .master-panel.hide {
@@ -339,6 +345,7 @@ body {
     
     border: 1px solid white;
     margin: 50px;
+    font-size: 20px;
   
 }
 
@@ -429,6 +436,14 @@ body {
 
 
 
+}
+
+.content-panel-skills{
+  
+    font-size: small; 
+    margin-top: 100px;
+    overflow: visible;
+    
 }
 
 .content-panel-singular.hidden{

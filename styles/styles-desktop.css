@@ -6,7 +6,7 @@ body
 {
     font-family: 'cursive';
     line-height: 2;
-    font-size: 16px;
+    font-size: 20px;
     visibility: hidden; 
 }
 .middle-body-fixed{
@@ -246,6 +246,7 @@ body {
         border: 1px solid white;
         margin: 50px;
         margin-left: 350px;
+        font-size: 20px;
     }
     
     .skill-bar {
