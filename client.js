@@ -212,4 +212,16 @@ function handleHashChange() {
     {
         loadHTMLFileAndReplace('/pages/projects/unrealproject.html', 'master-panel','nav-href-three', 'projects/unrealproject')
     }
+    if(currentHash  === "#projects/rts")
+    {
+        loadHTMLFileAndReplace('/pages/projects/rts.html', 'master-panel','nav-href-three', 'projects/rts')
+    }
+    if(currentHash  === "#projects/salinitypump")
+    {
+        loadHTMLFileAndReplace('/pages/projects/salinitypump.html', 'master-panel','nav-href-three', 'projects/salinitypump')
+    }
+    if(currentHash  === "#projects/memoryeditor")
+    {
+        loadHTMLFileAndReplace('/pages/projects/memoryeditor.html', 'master-panel','nav-href-three', 'projects/memoryeditor')
+    }
 }
